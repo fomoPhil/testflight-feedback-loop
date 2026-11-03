@@ -1,0 +1,34 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": {
+    "open":     { "from": 0,    "dur": 120 },
+    "problem":  { "from": 120,  "dur": 210 },
+    "intro":    { "from": 330,  "dur": 135 },
+    "feedback": { "from": 465,  "dur": 330 },
+    "ask":      { "from": 795,  "dur": 225 },
+    "work":     { "from": 1020, "dur": 510 },
+    "update":   { "from": 1530, "dur": 240 },
+    "loop":     { "from": 1770, "dur": 210 },
+    "needs":    { "from": 1980, "dur": 240 },
+    "end":      { "from": 2220, "dur": 180 }
+  },
+  "cues": {
+    "open":     { "line1": 8, "line2": 22, "sub": 48 },
+    "problem":  { "head": 4, "items": 26, "itemGap": 12, "strike": 112, "strikeGap": 7, "now": 150 },
+    "intro":    { "title": 6, "sub": 26, "chips": 48, "dock": 100 },
+    "feedback": { "phoneIn": 0, "ring": 52, "copy2": 88, "shutter": 96, "sheet": 112, "typeFrom": 136, "typeTo": 206, "submit": 222, "sent": 232 },
+    "ask":      { "swap": 4, "typeFrom": 44, "typeTo": 70, "send": 80, "exit": 196 },
+    "work": {
+      "prompt": 30, "auth": 48, "list": 74, "listOut": 88, "tracker": 124, "edit": 156, "tests": 190,
+      "bump": 222, "archive": 248, "archiveOk": 278, "export": 290, "exportOk": 316,
+      "upload": 328, "uploadOk": 378, "poll": 390, "valid": 446, "trackerFixed": 462,
+      "msg1": 96, "msg2": 200, "msg3": 240, "msg4": 452
+    },
+    "update":   { "banner": 22, "tapBanner": 58, "tapUpdate": 92, "open": 128, "fixed": 146, "tracker": 160 },
+    "loop":     { "draw": 0, "lap": 64 },
+    "needs":    { "head": 4, "items": 30, "itemGap": 9 },
+    "end":      { "title": 6, "links": 30 }
+  }
+}
