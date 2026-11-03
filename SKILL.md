@@ -21,7 +21,7 @@ The skill is **two separate commands**. Pick the one being asked for:
 3. **Headless only.** Never require the Xcode GUI. Everything runs via `asc` + `xcodebuild`/`xcodegen`.
 4. **Bump the build number only.** The marketing version (1.0 to 1.1) is a deliberate decision the user makes; never auto-bump it.
 5. **The tracker is the memory.** Always read `testflight-feedback.md` before triaging so resolved items are never re-investigated. Update it whenever feedback is pulled or a fix ships.
-6. **Audience may be a non-coder.** Keep user-facing summaries concise and plain (what changed for them, what to test), not code detail.
+6. **Audience may be a non-coder, often on a phone.** Keep user-facing summaries concise and plain (what changed for them, what to test), not code detail. When the user is driving the session remotely (e.g. Claude Code Remote Control from the Claude app), keep each update phone-sized and send one clear message when the build is live in TestFlight.
 
 ## Bundled resources
 
